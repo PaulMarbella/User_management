@@ -26,6 +26,7 @@ header li{
     position: absolute;
     top: 2px;
 }
+
 ul input{
     border-radius: 25px;
     border:2px solid #6aaf42;
@@ -101,6 +102,9 @@ nav:hover{
 }
 nav ul{
     margin-top: 70px;
+    position: relative;
+    margin-left: 0;
+    left: -15px;
 }
 
 
@@ -129,22 +133,36 @@ nav i{
 
 nav li:hover,
 nav li:focus{
-    background: #a2a96b;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(188,186,119,1) 0%, rgba(114,139,86,1) 95%);
     position: initial;
     width: 260px;
-    border-radius: 30px;
+    border-radius: 0 30px 30px 0;
     border-radius: 2px solid #a2a96b;
     
   
 }
+.profile{
+    position: absolute;
+    color: white;
+    top: 30px;
+    left: 15px;
+}
+.out{
+    position: absolute;
+    color: white;
+    top: 87.5%;
+    left: 20px;
+
+}
 nav button{
-    border-radius: 30px;
+    border-radius: 0 30px 30px 0;
     border-radius: 2px solid #a2a96b;
-    background: #a2a96b;
-    width: 70%; 
-    height: 30px;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(188,186,119,1) 0%, rgba(114,139,86,1) 95%);
+    width: 80%; 
+    height: 60px;
     color: white; 
     font-size: 14px;
+    margin-left: 0;
 
 }
 
